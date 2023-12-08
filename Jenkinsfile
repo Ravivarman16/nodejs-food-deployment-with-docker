@@ -5,7 +5,7 @@ pipeline {
         stage ('changing the file permission') {
             steps {
                 sh 'chmod +x build.sh'
-                sh 'chomod +x deploy.sh'
+                sh 'chmod +x deploy.sh'
             }
         }
 
